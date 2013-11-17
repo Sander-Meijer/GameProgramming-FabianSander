@@ -1,0 +1,16 @@
+< car ; 0.0 -4.0 0.0 ; 90.0 0.0 1.0 0.0 ; f ; carBehaviour ; collider >
+	frame ; 0.0 0.0 0.0; 0.0 0.0 0.0 0.0; ; ;  
+	wheel ; 1.0 -0.2 1.5 ; 0.0 0.0 0.0 0.0; ; ;
+	wheel ; -1.0 -0.2 1.5 ; 0.0 0.0 0.0 0.0; ; ;
+	wheel ; 1.0 -0.2 -1.5 ; 0.0 0.0 0.0 0.0; ; ;
+	wheel ; -1.0 -0.2 -1.5 ; 0.0 0.0 0.0 0.0; ; ;
+</car>
+<ground ; 0.0 0.0 0.0 ; 0.0 0.0 0.0 0.0; ; ; >
+	Track ; -160 -5 160 ; -90 1.0 0.0 0.0 ; ; ; 
+	finish_gate ; -5 -4.0 -10 ; 0 1.0 0.0 0.0 ; a ; finishLineBehaviour ; AABBcollider
+</ground>
+<special>
+#camera ; 0.0 10.0 -15.0 ; 20.0 180.0 0.0 
+#skybox ;
+#light ;
+</special>
